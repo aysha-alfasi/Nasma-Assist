@@ -1,0 +1,16 @@
+.container {
+  max-width: 460px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  direction: rtl;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
