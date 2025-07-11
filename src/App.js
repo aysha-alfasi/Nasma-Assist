@@ -1,8 +1,8 @@
 import React from 'react';
-import MoodDashboard from './components/MoodDashboard';
+import HeaderSection from './components/HeaderSection';
 
 function App() {
-  return <MoodDashboard />;
+  return <HeaderSection />;
 }
 
 export default App;
