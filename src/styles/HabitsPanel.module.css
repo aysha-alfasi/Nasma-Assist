@@ -1,0 +1,67 @@
+.habitsBoard {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 26px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.283);
+  background-color: #fbebff;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+}
+
+.habitsBoard h2 {
+  font-family: "SilkScreen";
+  font-size: 0.9rem;
+  text-align: center;
+}
+.habitItem {
+  margin-top: 1rem;
+}
+
+.habitLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 120px; /* أو حسب الحاجة */
+}
+
+.habitInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.habitIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.progressBar {
+  flex: 1;
+  height: 20px;
+  background: #f4d9d9;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  border: 1px solid #6d6767 !important;
+}
+
+.progressFill {
+  height: 100%;
+  transition: width 0.4s ease;
+  border-radius: 25px;
+  border-right: 1px solid rgb(52, 52, 52);
+}
+
+.habitsButton {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #a0d995;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}

@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "../styles/HeaderSection.module.css";
 import avatar from "../imgs/NasmaHappyNoBackground.png";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 
 const HeaderSection = () => {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    const sequence = async () => {
+      await controls.start({
+        opacity: 1,
+        scale: 1,
+        y: 0,
+        transition: { duration: 0.5, ease: "easeOut" },
+      });
+      await controls.start({
+        scale: [1, 1.05, 1],
+        transition: { duration: 0.4, ease: "easeInOut" },
+      });
+    };
+    sequence();
+  }, [controls]);
+
   return (
     <div className={classes.headerContainer}>
       <motion.div
@@ -31,18 +49,12 @@ const HeaderSection = () => {
           src={avatar}
           alt="Avatar"
           className={classes.avatar}
-          initial={{ opacity: 0, scale: 0.6, y: 30 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.9, y: 20 }}
+          animate={controls}
           whileHover={{
             scale: 1.1,
             rotate: -5,
             transition: { type: "spring", stiffness: 300 },
-          }}
-          transition={{
-            duration: 0.8,
-            ease: [0.25, 0.8, 0.25, 1],
-            type: "spring",
-            stiffness: 80,
           }}
         />
       </div>
