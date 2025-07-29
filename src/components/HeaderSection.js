@@ -37,12 +37,8 @@ const HeaderSection = () => {
           type: "spring",
         }}
       >
-        <h1 className={classes.title}>Hello, I am your assistant, Nasma. </h1>
-        <p className={classes.subtitle}>
-          {" "}
-          I hope you had a nice day! Let’s check how you’re feeling and what you
-          did!
-        </p>
+        <h1 className={classes.title}>Hello, I am Nasma. </h1>
+        <p className={classes.subtitle}>Your honest assistent</p>
       </motion.div>
       <div className={classes.imageHalf}>
         <motion.img
