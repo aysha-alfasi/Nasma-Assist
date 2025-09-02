@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Nasma Assist 🌼✨  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My project is a react friendly web application with a cute assistant named Nasma who helps you track your moods and build good habits.💖  
 
-## Available Scripts
+## visual overview 🍓  
 
-In the project directory, you can run:
+![Assist Nasma](./assets/1.gif)  
 
-### `npm start`
+### App overview 🎬
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App overview](./assets/2.gif)  
+ 
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## languages 💻  
+- HTML  
+- CSS  
+- JavaScript  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Libraries ⭐  
+- ReactJs  
+- Framer-Motion  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features 🌟  
+- Choose your daily mood with a colorful panel that changes its color.🎨  
+- Enjoy interactive sounds matching your chosen mood.🔔  
+- Get a reaction from Nasma through a cute popup window.🌼 
+- Ask Nasma for a suggestion (feature under progress)💡 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Planned future features include:**  
+- Habit tracking and planning with Nasma.🌱  
+- Goal setting to stay on track.🎯  
+- Calendar and overview to plan ahead and evaluate progress.📆
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Mood Features Example 🌟
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Happy Mood](./assets/3.gif)  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Normal Mood](./assets/4.gif)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Sad Mood](./assets/5.gif)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Angry Mood](./assets/6.gif) 
 
-## Learn More
+## Planned future features 🛠️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Angry Mood](./assets/7.gif)  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Managing state 💫  
+Currently managed with React state, with room for future improvements.🌻  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Last note 🌼  
+This app is still in progress, but you can already feel the warm company of Nasma and a glimpse of her future features.🍒✨  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For more details about the planned future features, check the Figma design linked below.🎀  
 
-### Making a Progressive Web App
+*(Note: the design is still a work in progress and not fully complete.)*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👉 [View on Figma](https://www.figma.com/design/hkWt1ZIMZmkFJYX1GpFU5C/Mood-Habit-Tracker-App?node-id=0-1&t=SlcD5zXEQhc5NcYC-1)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for reading ♡ ⋆｡˚  

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "./UI/Modal";
 import classes from "../styles/HabitsPanel.module.css";
 import morning from "../imgs/sunApp.png";

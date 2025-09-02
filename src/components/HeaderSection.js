@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import classes from "../styles/HeaderSection.module.css";
 import avatar from "../imgs/NasmaHappyNoBackground.png";
 import { motion, useAnimation } from "framer-motion";
@@ -38,7 +38,7 @@ const HeaderSection = () => {
         }}
       >
         <h1 className={classes.title}>Hello, I am Nasma. </h1>
-        <p className={classes.subtitle}>Your honest assistent</p>
+        <p className={classes.subtitle}>Your sincere Assistant</p>
       </motion.div>
       <div className={classes.imageHalf}>
         <motion.img
