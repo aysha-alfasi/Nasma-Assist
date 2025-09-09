@@ -6,10 +6,10 @@ import classes from "../styles/MoodPanel.module.css";
 import normalImg from "../imgs/normal.png";
 import sadImg from "../imgs/sad2.png";
 import angryImg from "../imgs/angry.png";
-import happyNasma from "../imgs/happyNasma.png";
-import neutralNasma from "../imgs/hintNasma.png";
-import sadNasma from "../imgs/sadNasma.png";
-import angryNasma from "../imgs/angryNasma.png";
+import happyNasma from "../imgs/happyNasma1.png";
+import neutralNasma from "../imgs/hintNasma1.png";
+import sadNasma from "../imgs/sadNasma1.png";
+import angryNasma from "../imgs/angryNasma1.png";
 
 const moods = {
   happy: {

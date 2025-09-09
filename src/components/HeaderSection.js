@@ -1,9 +1,12 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import classes from "../styles/HeaderSection.module.css";
 import avatar from "../imgs/NasmaHappyNoBackground.png";
 import { motion, useAnimation } from "framer-motion";
+import Spinner from "./UI/Spinner";
 
 const HeaderSection = () => {
+  const [loaded, setLoaded] = useState(false);
+
   const controls = useAnimation();
 
   useEffect(() => {
@@ -41,9 +44,11 @@ const HeaderSection = () => {
         <p className={classes.subtitle}>Your sincere Assistant</p>
       </motion.div>
       <div className={classes.imageHalf}>
+        {!loaded && <Spinner />}
         <motion.img
           src={avatar}
           alt="Avatar"
+          onLoad={() => setLoaded(true)}
           className={classes.avatar}
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={controls}
